@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+ #section.container-fluid
+{
+    background-image:url('/assets/banner-initial.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-color: #000;
+}
+
+#img{
+    height: 25px;
+}
+
+.btn{
+    background-color: rgb(208, 6, 6);  
+    
+}
+
+.btn-lg{
+    height: 75px;
+    width: 180px;
+    font-size: 25px;
+}
+
+.vh-70{
+    height: 70vh;
+}
+
+.accordion-button::after {
+    background-image: url("/Growflix/assets/add.svg") !important;
+}
+
+.custom-accordion {
+    background-color: #4e4d4d; /* Defina a cor de fundo desejada */
+}
+
+.tamanho-fonte-botao{
+    font-size: 38px;
+}
+
+.display-5{
+    font-size: 38px;
+}
+
+.display-6{
+    font-size: 25px;
+}
